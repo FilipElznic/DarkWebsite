@@ -85,3 +85,56 @@ body {
   box-shadow: 50px 100px white, 100px -150px white, 200px 50px white,
     -120px -100px white, -200px 80px white;
 }
+body {
+  margin: 0;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+    "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom styles for enhanced effects */
+@layer components {
+  .glow-purple {
+    box-shadow: 0 0 25px 5px rgba(139, 92, 246, 0.25);
+  }
+}
+
+/* Disable scrollbar for cleaner look */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* SVG animations */
+@keyframes pulse {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.6;
+  }
+}
+
+/* Animation for subtle background movement */
+@keyframes floating {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.animate-floating {
+  animation: floating 8s ease-in-out infinite;
+}
+
+/* Add noise texture overlay */
+.bg-noise {
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.05'/%3E%3C/svg%3E");
+}
