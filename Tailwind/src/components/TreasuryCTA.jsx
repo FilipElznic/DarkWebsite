@@ -2,9 +2,8 @@ import React from "react";
 
 const TreasuryCTA = () => {
   return (
-    <section className="px-6 md:px-12 lg:px-20 py-20 relative h-screen flex items-center justify-center">
+    <section className="px-6 md:px-12 lg:px-20 py-20 relative h-screen flex items-center justify-center !bg-black">
       {/* Background gradient */}
-      <div className="absolute inset-0 bg-gradient-to-b from-purple-900/10 via-purple-900/20 to-transparent"></div>
 
       <div className="relative text-center max-w-3xl mx-auto">
         <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">

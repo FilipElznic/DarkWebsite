@@ -2,7 +2,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <nav className="backdrop-blur-lg bg-purple-900/5 py-4 px-6 md:px-12 lg:px-20 flex justify-between items-center border-b border-white/5">
+    <nav className="backdrop-blur-lg bg-[#000113] py-4 px-6 md:px-12 lg:px-20 flex justify-between items-center border-b border-white/5">
       <div className="flex items-center">
         <div className="relative">
           <div className="absolute -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full blur opacity-60"></div>

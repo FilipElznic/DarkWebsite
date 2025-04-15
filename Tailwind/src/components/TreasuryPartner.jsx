@@ -2,14 +2,8 @@ import React from "react";
 
 const TreasuryPartner = () => {
   return (
-    <section
-      className="px-6 md:px-12 lg:px-20 py-20 relative"
-      style={{ backgroundColor: "#000113" }}
-    >
+    <section className="px-6 md:px-12 lg:px-20 py-20 relative !bg-black">
       {/* Background elements */}
-      <div className="absolute -top-40 right-0 w-80 h-80 bg-purple-900/10 rounded-full blur-3xl"></div>
-      <div className="absolute top-20 left-10 w-1 h-1 bg-white rounded-full"></div>
-      <div className="absolute bottom-40 right-1/4 w-2 h-2 bg-purple-400 rounded-full"></div>
 
       <div className="relative">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-16">

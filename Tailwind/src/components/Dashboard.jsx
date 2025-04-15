@@ -2,7 +2,7 @@ import React from "react";
 
 const Dashboard = () => {
   return (
-    <section className="px-6 md:px-12 lg:px-20 mb-20">
+    <section className="px-6 md:px-12 lg:px-20 mb-20 bg-black">
       <div className="relative">
         {/* Dashboard Container with Glow Effect */}
         <div className="relative">

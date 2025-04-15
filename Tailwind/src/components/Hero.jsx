@@ -2,7 +2,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <section className="relative pt-20 pb-24 px-6 md:px-12 lg:px-20 text-center">
+    <section className="relative pt-20 pb-24 px-6 md:px-12 lg:px-20 text-center bg-black">
       {/* Purple beam/spotlight effect */}
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-2/3 h-[500px] bg-purple-800/30 blur-[120px] rounded-full pointer-events-none"></div>
 

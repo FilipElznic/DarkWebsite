@@ -1,4 +1,5 @@
 import React from "react";
+import Img from "../assets/bgimage.png";
 
 const WhyChooseUs = () => {
   return (
@@ -8,11 +9,11 @@ const WhyChooseUs = () => {
     >
       {/* Background image */}
       <div
-        className="absolute inset-0 h-[80vh] bg-contain bg-center bg-no-repeat"
+        className="absolute inset-0 h-[80vh] bg-contain bg-center bg-no-repeat z-0"
         style={{
-          backgroundImage:
-            "url('https://sdmntprsouthcentralus.oaiusercontent.com/files/00000000-3b00-61f7-8fdc-e66039d4e243/raw?se=2025-04-15T09%3A12%3A54Z&sp=r&sv=2024-08-04&sr=b&scid=9d8e6de3-f0f9-504d-9c36-97651ee4cd92&skoid=06d77cea-897f-49c6-9d78-20f6510f72af&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-04-15T07%3A27%3A40Z&ske=2025-04-16T07%3A27%3A40Z&sks=b&skv=2024-08-04&sig=2jnJjpysphtCUkmnF%2BZKYcxLYJfD7694WA4bCwYRkWY%3D')",
-          opacity: 0.9,
+          backgroundImage: `url(${Img})`,
+
+          opacity: 1,
         }}
       ></div>
 

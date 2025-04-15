@@ -10,7 +10,7 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-[#1a0b2e] via-[#150a27] to-[#0c0617] text-white overflow-hidden relative">
+    <div className="min-h-screen bg-black text-white overflow-hidden relative">
       {/* Noise texture overlay */}
       <div className="absolute inset-0 bg-noise opacity-[0.03] pointer-events-none"></div>
 

@@ -2,7 +2,7 @@ import React from "react";
 
 const Testimonial = () => {
   return (
-    <section className="px-6 md:px-12 lg:px-20 py-16">
+    <section className="px-6 md:px-12 lg:px-20 py-16 bg-black">
       <div className="bg-gray-900/80 rounded-xl p-8 md:p-10 max-w-4xl mx-auto border border-purple-900/30 relative overflow-hidden">
         {/* Background gradient */}
         <div className="absolute -bottom-10 -right-10 w-40 h-40 bg-purple-600/20 rounded-full blur-2xl"></div>
