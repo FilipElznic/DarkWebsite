@@ -2,7 +2,10 @@ import React from "react";
 
 const TreasuryPartner = () => {
   return (
-    <section className="px-6 md:px-12 lg:px-20 py-20 relative">
+    <section
+      className="px-6 md:px-12 lg:px-20 py-20 relative"
+      style={{ backgroundColor: "#000113" }}
+    >
       {/* Background elements */}
       <div className="absolute -top-40 right-0 w-80 h-80 bg-purple-900/10 rounded-full blur-3xl"></div>
       <div className="absolute top-20 left-10 w-1 h-1 bg-white rounded-full"></div>
@@ -17,7 +20,10 @@ const TreasuryPartner = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {/* Feature Card 1 */}
-          <div className="feature-card p-8 rounded-xl transition-all hover:shadow-purple-glow">
+          <div
+            className="feature-card p-8 rounded-xl transition-all hover:shadow-purple-glow"
+            style={{ backgroundColor: "#0a041f" }}
+          >
             <h3 className="text-xl font-semibold mb-4">Earn yield</h3>
             <p className="text-gray-400 mb-6">
               Automatically put your idle cash to work and reap the benefits of
@@ -50,7 +56,10 @@ const TreasuryPartner = () => {
           </div>
 
           {/* Feature Card 2 */}
-          <div className="feature-card p-8 rounded-xl transition-all hover:shadow-purple-glow">
+          <div
+            className="feature-card p-8 rounded-xl transition-all hover:shadow-purple-glow"
+            style={{ backgroundColor: "#0a041f" }}
+          >
             <h3 className="text-xl font-semibold mb-4">
               Group-wide cash visibility
             </h3>
@@ -86,7 +95,10 @@ const TreasuryPartner = () => {
           </div>
 
           {/* Feature Card 3 */}
-          <div className="feature-card p-8 rounded-xl transition-all hover:shadow-purple-glow">
+          <div
+            className="feature-card p-8 rounded-xl transition-all hover:shadow-purple-glow"
+            style={{ backgroundColor: "#0a041f" }}
+          >
             <h3 className="text-xl font-semibold mb-4">
               Unparalleled visibility
             </h3>

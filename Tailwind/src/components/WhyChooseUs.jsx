@@ -2,14 +2,29 @@ import React from "react";
 
 const WhyChooseUs = () => {
   return (
-    <section className="px-6 md:px-12 lg:px-20 py-20 relative">
-      {/* Background gradient and graphics */}
-      <div className="absolute inset-0 bg-gradient-to-br from-purple-900/10 to-transparent"></div>
+    <section
+      className="px-6 md:px-12 lg:px-20 py-20 relative h-screen flex items-end justify-center "
+      style={{ backgroundColor: "#000113" }}
+    >
+      {/* Background image */}
+      <div
+        className="absolute inset-0 h-[80vh] bg-contain bg-center bg-no-repeat"
+        style={{
+          backgroundImage:
+            "url('https://sdmntprsouthcentralus.oaiusercontent.com/files/00000000-3b00-61f7-8fdc-e66039d4e243/raw?se=2025-04-15T09%3A12%3A54Z&sp=r&sv=2024-08-04&sr=b&scid=9d8e6de3-f0f9-504d-9c36-97651ee4cd92&skoid=06d77cea-897f-49c6-9d78-20f6510f72af&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-04-15T07%3A27%3A40Z&ske=2025-04-16T07%3A27%3A40Z&sks=b&skv=2024-08-04&sig=2jnJjpysphtCUkmnF%2BZKYcxLYJfD7694WA4bCwYRkWY%3D')",
+          opacity: 0.9,
+        }}
+      ></div>
+
+      {/* Optional overlay to ensure text readability */}
+      <div className="absolute inset-0 bg-black/50"></div>
+
+      {/* Keep the decorative elements */}
       <div className="absolute top-1/4 right-1/4 w-1 h-1 bg-white rounded-full"></div>
       <div className="absolute bottom-1/3 left-1/4 w-2 h-2 bg-purple-400 rounded-full"></div>
 
       <div className="relative">
-        <h2 className="text-3xl md:text-4xl font-bold text-center mb-16">
+        <h2 className="text-3xl md:text-4xl lg:text-7xl font-bold text-center mb-16 ">
           Why choose us
           <br />
           over others?
@@ -17,7 +32,7 @@ const WhyChooseUs = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {/* Feature 1 */}
-          <div className="bg-gray-900/70 p-6 rounded-xl border border-purple-900/30">
+          <div className="bg-gray-900/70 p-6 rounded-xl border border-purple-900/30 backdrop-blur-sm">
             <div className="flex items-start mb-4">
               <div className="bg-purple-900/50 p-3 rounded-lg">
                 <svg
@@ -48,7 +63,7 @@ const WhyChooseUs = () => {
           </div>
 
           {/* Feature 2 */}
-          <div className="bg-gray-900/70 p-6 rounded-xl border border-purple-900/30">
+          <div className="bg-gray-900/70 p-6 rounded-xl border border-purple-900/30 backdrop-blur-sm">
             <div className="flex items-start mb-4">
               <div className="bg-purple-900/50 p-3 rounded-lg">
                 <svg
@@ -75,7 +90,7 @@ const WhyChooseUs = () => {
           </div>
 
           {/* Feature 3 */}
-          <div className="bg-gray-900/70 p-6 rounded-xl border border-purple-900/30">
+          <div className="bg-gray-900/70 p-6 rounded-xl border border-purple-900/30 backdrop-blur-sm">
             <div className="flex items-start mb-4">
               <div className="bg-purple-900/50 p-3 rounded-lg">
                 <svg
