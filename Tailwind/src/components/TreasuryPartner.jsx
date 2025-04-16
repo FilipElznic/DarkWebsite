@@ -1,23 +1,25 @@
 import React from "react";
+import Img from "../assets/bgimage2.png";
 
 const TreasuryPartner = () => {
   return (
     <section className="px-6 md:px-12 lg:px-20 py-20 relative !bg-transparent">
       {/* Background elements */}
 
-      <div className="relative">
-        <h2 className="text-3xl md:text-4xl font-bold text-center mb-16">
+      <div className="relative flex flex-col items-center">
+        <h2 className="text-3xl md:text-4xl lg:text-6xl font-bold text-center mb-16 relative z-10">
           Meet your new
           <br />
           treasury partner
         </h2>
+        <img
+          src={Img}
+          className="bottom-36 opacity-50 w-full h-full absolute"
+        ></img>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-4 z-10">
           {/* Feature Card 1 */}
-          <div
-            className="feature-card p-8 rounded-xl transition-all hover:shadow-purple-glow"
-            style={{ backgroundColor: "#0a041f" }}
-          >
+          <div className="feature-card p-8 rounded-xl transition-all hover:shadow-purple-glow bg-[#0a041f]">
             <h3 className="text-xl font-semibold mb-4">Earn yield</h3>
             <p className="text-gray-400 mb-6">
               Automatically put your idle cash to work and reap the benefits of
