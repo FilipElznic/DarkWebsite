@@ -25,7 +25,7 @@ const WhyChooseUs = () => {
       <div className="absolute bottom-1/3 left-1/4 w-2 h-2 bg-purple-400 rounded-full"></div>
 
       <div className="relative">
-        <h2 className="text-3xl md:text-4xl lg:text-7xl font-bold text-center mb-16 ">
+        <h2 className="text-3xl md:text-4xl lg:text-8xl font-bold text-center mb-16 ">
           Why choose us
           <br />
           over others?

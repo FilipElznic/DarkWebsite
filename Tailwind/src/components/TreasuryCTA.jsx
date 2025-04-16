@@ -1,9 +1,12 @@
 import React from "react";
+import Img from "../assets/bgimage4.png";
 
 const TreasuryCTA = () => {
   return (
     <section className="px-6 md:px-12 lg:px-20 py-20 relative h-screen flex items-center justify-center !bg-black">
       {/* Background gradient */}
+      <img src={Img} className="absolute left-0"></img>
+      <img src={Img} className="absolute right-0 bottom-44 rotate-180"></img>
 
       <div className="relative text-center max-w-3xl mx-auto">
         <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">
