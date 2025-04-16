@@ -2,7 +2,7 @@ import React from "react";
 
 const TreasuryPartner = () => {
   return (
-    <section className="px-6 md:px-12 lg:px-20 py-20 relative !bg-black">
+    <section className="px-6 md:px-12 lg:px-20 py-20 relative !bg-transparent">
       {/* Background elements */}
 
       <div className="relative">
