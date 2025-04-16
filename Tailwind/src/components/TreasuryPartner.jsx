@@ -12,10 +12,7 @@ const TreasuryPartner = () => {
           <br />
           treasury partner
         </h2>
-        <img
-          src={Img}
-          className="bottom-36 opacity-50 w-full h-full absolute"
-        ></img>
+        <img src={Img} className="bottom-36 opacity-30  h-full absolute"></img>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-4 z-10">
           {/* Feature Card 1 */}
