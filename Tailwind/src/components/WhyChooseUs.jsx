@@ -4,21 +4,26 @@ import Img from "../assets/bgimage.png";
 const WhyChooseUs = () => {
   return (
     <section
-      className="px-6 md:px-12 lg:px-20 py-20 relative h-screen flex items-end justify-center "
+      className="px-6 md:px-12 lg:px-20 py-20 relative h-screen flex items-end justify-center"
       style={{ backgroundColor: "#000113" }}
     >
-      {/* Background image */}
-      <div
-        className="absolute inset-0 h-[80vh] bg-contain bg-center bg-no-repeat z-0"
-        style={{
-          backgroundImage: `url(${Img})`,
+      {/* Background image with gradient mask for blurred edges */}
+      <div className="absolute inset-0 h-[80vh] z-0">
+        {/* Main image container with mask */}
+        <div
+          className="h-full w-full bg-contain bg-center bg-no-repeat"
+          style={{
+            backgroundImage: `url(${Img})`,
+            opacity: 0.8,
+            filter: "revert-layer:blur(20px)",
+          }}
+        ></div>
 
-          opacity: 1,
-        }}
-      ></div>
+        {/* Blurred duplicate for enhanced effect */}
+      </div>
 
       {/* Optional overlay to ensure text readability */}
-      <div className="absolute inset-0 bg-black/50"></div>
+      <div className="absolute inset-0 bg-black/30"></div>
 
       {/* Keep the decorative elements */}
       <div className="absolute top-1/4 right-1/4 w-1 h-1 bg-white rounded-full"></div>
